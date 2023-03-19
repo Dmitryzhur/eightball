@@ -1,0 +1,195 @@
+.main {
+	max-width: 1280px;
+	background: no-repeat url(../../images/backball.svg);
+	width: 1280px;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	box-sizing: border-box;
+	color: white;
+	padding: 0;
+	margin: 0;
+	position: sticky;
+	top: 0;
+	background-color: #202020;
+	z-index: 1;
+}
+
+.title {
+	text-decoration: none;
+	font-family: 'Italiana', 'Inter', 'Arial', 'Helvetica', sans-serif;
+	color: white;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 57px;
+	padding: 0;
+	margin: 0;
+}
+
+.logo {
+	height: 100%;
+	margin: 165px 0 65px;
+	padding: auto;
+}
+
+.about_section {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	max-width: 565px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.text {
+	font-family: 'Lemonada';
+	font-style: normal;
+	font-weight: 380;
+	font-size: 36px;
+	line-height: 72px;
+	padding: 0;
+	margin: 0;
+}
+
+.form__set {
+
+}
+
+.form__field {
+	
+}
+
+.form__input {
+	
+}
+
+.form__placeholder {
+	
+}
+
+.form__input-error {
+	
+}
+
+.form__submit {
+	
+}
+
+.form__button {
+	
+}
+
+.button {
+
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	box-sizing: border-box;
+	color: white;
+	padding: 0;
+	margin: 0;
+	position: sticky;
+	top: 0;
+	background-color: #070707;
+	z-index: 1;
+}
+
+
+.divination_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.divination_text {
+	font-family: 'Noto Serif Kannada';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 78px;
+	background: #A75FC9;
+	border-radius: 50px;
+	text-align: center;
+	margin: 100px 0px;
+	padding: 200px 300px;
+}
+
+
+@media screen and (max-width: 1279px) {
+	.main {
+		width: 100%;
+	}
+}
+
+
+/* @media screen and (max-width: 1279px) {
+	.header {
+		padding: 0 30px;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.header {
+		padding: 0 14px;
+	}
+} */
+
+
+/* 
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #000000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
